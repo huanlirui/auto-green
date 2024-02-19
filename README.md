@@ -43,6 +43,10 @@
 
 **注**：由于 GitHub Actions 的限制，如果设置为 `* * * * *` 实际的执行频率为每 5 分执行一次。
 
+## 注意
+
+如果ci提示没有权限，找到项目的`Setting - Actions - General` 修改 `Workflow permissions` 修改为 `Read and write permissions`
+
 ## License
 
 [auto-green](https://github.com/huanlirui/auto-green) is released under the MIT License. See the bundled [LICENSE](./LICENSE) file for details.
